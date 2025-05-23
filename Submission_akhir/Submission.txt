@@ -1,0 +1,22 @@
+# Cara Menjalankan Skrip ETL Pipeline
+1. Pastikan semua dependensi sudah terinstal dengan menjalankan:
+pip install -r requirements.txt
+
+2. Jalankan skrip utama ETL pipeline:
+python main.py
+
+3. Proses akan berjalan secara otomatis:
+- **Extract:** Mengambil data dari sumber eksternal.
+- **Transform:** Membersihkan dan memformat data.
+- **Load:** Menyimpan hasil akhir ke file CSV.
+
+# Cara Menjalankan Test Coverage
+1. Pastikan `coverage.py` sudah terinstal:
+pip install coverage
+
+2. Jalankan test coverage dengan perintah:
+coverage run -m unittest discover -s tests
+
+3. Lihat hasil test coverage dengan:
+coverage report
+
